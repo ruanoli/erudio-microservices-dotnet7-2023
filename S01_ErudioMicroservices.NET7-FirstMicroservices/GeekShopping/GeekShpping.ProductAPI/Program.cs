@@ -1,13 +1,27 @@
+using AutoMapper;
+using GeekShpping.ProductAPI.Config;
+using GeekShpping.ProductAPI.Interfaces;
 using GeekShpping.ProductAPI.Models.Context;
+using GeekShpping.ProductAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+#region AutoMapper
+IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+#endregion
+
 #region DbContext
 builder.Services.AddDbContext<MyDatabaseContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+#endregion
+
+#region DI
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 #endregion
 
 builder.Services.AddControllers();
