@@ -3,6 +3,7 @@ using GeekShpping.ProductAPI.Data.ValueObjects;
 using GeekShpping.ProductAPI.Interfaces;
 using GeekShpping.ProductAPI.Models;
 using GeekShpping.ProductAPI.Models.Context;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace GeekShpping.ProductAPI.Repositories
@@ -34,7 +35,7 @@ namespace GeekShpping.ProductAPI.Repositories
             return _mapper.Map<ProductVO>(product);   
         }
 
-        public async Task<ProductVO> CreateProduct(ProductVO vo)
+        public async Task<ProductVO> CreateProduct([FromBody] ProductVO vo)
         {
             var product = _mapper.Map<Product>(vo);
 
@@ -44,7 +45,7 @@ namespace GeekShpping.ProductAPI.Repositories
             return _mapper.Map<ProductVO>(product);
         }
 
-        public async Task<ProductVO> UpdateProduct(ProductVO vo)
+        public async Task<ProductVO> UpdateProduct([FromBody] ProductVO vo)
         {
             var product = _mapper.Map<Product>(vo);
 

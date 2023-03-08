@@ -16,8 +16,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ruan1\microservice\erudio-microservices-dotnet7-2023\S03_ErudioMicroservices.NET7-Consuming\GeekShopping\GeekShopping.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ruan1/microservice/erudio-microservices-dotnet7-2023/S03_ErudioMicroservices.NET7-Consuming/GeekShopping/GeekShopping.Web/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[C:/Users/ruan1/microservice/erudio-microservices-dotnet7-2023/S03_ErudioMicroservices.NET7-Consuming/GeekShopping/GeekShopping.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ruan1/microservice/erudio-microservices-dotnet7-2023/S03_ErudioMicroservices.NET7-Consuming/GeekShopping/GeekShopping.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ruan1/microservice/erudio-microservices-dotnet7-2023/S03_ErudioMicroservices.NET7-Consuming/GeekShopping/GeekShopping.Web/Views/Product/ProductCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0Q3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ruan1/microservice/erudio-microservices-dotnet7-2023/S03_ErudioMicroservices.NET7-Consuming/GeekShopping/GeekShopping.Web/Views/Product/ProductDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ruan1/microservice/erudio-microservices-dotnet7-2023/S03_ErudioMicroservices.NET7-Consuming/GeekShopping/GeekShopping.Web/Views/Product/ProductEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ruan1/microservice/erudio-microservices-dotnet7-2023/S03_ErudioMicroservices.NET7-Consuming/GeekShopping/GeekShopping.Web/Views/Product/ProductIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ruan1/microservice/erudio-microservices-dotnet7-2023/S03_ErudioMicroservices.NET7-Consuming/GeekShopping/GeekShopping.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
